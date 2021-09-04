@@ -7,7 +7,6 @@ def load(i)
   puts "Have downloaded #{@size.round(2)}MB"
 end
 
-threads = []
 files = ["https://hb.wpmucdn.com/prolifewhistleblower.com/aa81feac-6079-4938-9e1a-1834fdb24c3f.js",
          "https://hb.wpmucdn.com/prolifewhistleblower.com/b54eb8e5-d211-46bb-bd60-e7e2648ba5f8.js",
          "https://hb.wpmucdn.com/prolifewhistleblower.com/8a9cd636-9767-4887-826d-69eee836a69b.js",
